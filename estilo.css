@@ -73,6 +73,20 @@ header nav ul li a:hover {
     padding: 15px;
     text-align: center;
 }
+.menu-smash {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;}
+
+
+
+
 
 .menu-item img {
     width: 100%;
