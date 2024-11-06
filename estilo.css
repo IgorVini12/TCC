@@ -117,27 +117,21 @@ header nav ul li a:hover {
     color: #e63946;
 }
 
-.section-content {
+/* Contato */
+#contato {
+    background-color: #f1f1f1;
     padding: 20px;
-    margin: 20px 0;
-    background-color: #f9f9f9;
-    border-radius: 5px;
- }
- 
- #contato h2 {
     text-align: center;
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 15px;
- }
- 
- .contato-info {
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    color: #666;
-    font-size: 18px;
- }
- 
- .contato-info p {
-    margin: 10px 0;
- }
- 
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+h2{ text-align: center;}
+p {text-align: center;}
