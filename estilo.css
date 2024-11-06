@@ -132,5 +132,21 @@ footer {
     margin-top: 20px;
 }
 
+
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .home h2, .item-info h3, .price {
+        font-size: smaller;
+    }
+}
+
+header nav ul li a {
+    color: #fff;
+    text
+}
+
 h2{ text-align: center;}
 p {text-align: center;}
