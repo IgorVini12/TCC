@@ -52,7 +52,7 @@
     .home {
         padding: 20px;
         text-align: center;
-        background-color: #a45917; /* Cor de fundo, ajuste conforme necessário */
+        background-color: rgb(192, 117, 51); /* Cor de fundo, ajuste conforme necessário */
         color: #333; /* Cor do texto */
     }
 
@@ -120,7 +120,7 @@
 
     /* Contato */
     #contato {
-        background-color:#a45917; /* Cor de fundo para a seção de contato */
+        background-color:rgb(192, 117, 51); /* Cor de fundo para a seção de contato */
         padding: 20px;
         text-align: center;
         color: #333; /* Cor do texto */
