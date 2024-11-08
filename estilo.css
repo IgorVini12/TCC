@@ -95,6 +95,11 @@
         border-radius: 8px;
 
     }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
 
     .item-info {
         margin-top: 10px;
