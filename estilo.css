@@ -67,12 +67,12 @@
     }
 
     /* Menu */
-    .menu {
-        color: #333;
-        align-items: center;
-        font-size:10px;
+    .separacao {
+        color: #070303;
+        font-size:px;
         font-family: Arial, Helvetica, sans-serif;
-
+        text-align: center;
+        
     }
     .section {
         padding: 20px;
