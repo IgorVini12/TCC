@@ -1,120 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hamburgueria Delícia</title>
-      <link rel="stylesheet" href="estilo.css">
-   </head>
-   <body>
-      <!-- Cabeçalho -->
-      <header>
-         <p>Hamburgueria Delícia</p>
-         <nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria Delícia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <p>Hamburgueria Delícia</p>
+        <nav>
             <ul>
-               <li><a href="#home">Home</a></li>
-               <li><a href="#menu">Menu</a></li>
-               <li><a href="#contato">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-         </nav>
-      </header>
-      <!-- Seção Home -->
-      <section class="home">
-         <h2>Bem-vindo à Hamburgueria Delícia</h2>
-         <p>Onde o sabor é uma experiência inesquecível!</p>
-      </section>
-      <!-- Seção Menu -->
-      <section id="menu" class="section-content">
-         <h2 style="text-align: center;">Nosso Menu</h2>
-         <br>
-    <center><div clase="separacao">Burger 165g</div></center>
-         <!-- Menu de Itens -->
-         <div class="menu-container">
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home" class="home">
+        <h2>Bem-vindo à Hamburgueria Delícia</h2>
+        <p>Onde o sabor é uma experiência inesquecível!</p>
+    </section>
+
+    <!-- Seção Menu -->
+    <section id="menu" class="section-content">
+        <h2>Nosso Menu</h2>
+
+        <!-- Menu de Itens -->
+        <div class="menu-container">
             <div class="menu-item">
-               <img src="img/348.jpg" alt="delicia burguer">
-               <div class="item-info">
-                  <h3>Especial Burger</h3>
-                  <p>Pão Australiano, nossa deliciosa Maionese (Verde), fatias de queijo cheddar da melhor qualidade; cebola caramelizada; e aquele bacon crocante.</p>
-                  <span class="price">R$30,00</span>
-               </div>
+                <img src="img/348.jpg" alt="Delícia Burger">
+                <div class="item-info">
+                    <h3>Especial Burger</h3>
+                    <p>Pão Australiano, nossa deliciosa Maionese Verde, fatias de queijo cheddar de alta qualidade, cebola caramelizada e bacon crocante.</p>
+                    <span class="price">R$30,00</span>
+                </div>
             </div>
             <div class="menu-item">
-               <img src="img/vegano.png" alt="Hambúrguer Vegetariano" title="Hambúrguer Vegetariano">
-               <div class="item-info">
-                  <h3>Hambúrguer Vegetariano</h3>
-                  <p>165g de burger de Feijão preto com beterraba; queijo prato; chimi churri; rúcula e molho no pão brioche.</p>
-                  <span class="price">R$30,00</span>
-               </div>
+                <img src="img/vegano.png" alt="Hambúrguer Vegetariano" title="Hambúrguer Vegetariano">
+                <div class="item-info">
+                    <h3>Hambúrguer Vegetariano</h3>
+                    <p>165g de burger de feijão preto com beterraba, queijo prato, chimichurri, rúcula e molho no pão brioche.</p>
+                    <span class="price">R$30,00</span>
+                </div>
             </div>
             <div class="menu-item">
-               <img src="img/bacon.png" alt="Explosão de Bacon">
-               <div class="item-info">
-                  <h3>Explosão de Bacon</h3>
-                  <p>Para os apaixonados por bacon e cheddar; suculento burger bovino de 165g, cebola levemente caramelizada, tiras de bacon crocante e creme de cheddar.</p>
-                  <span class="price">R$32,00</span>
-               </div>
+                <img src="img/bacon.png" alt="Explosão de Bacon">
+                <div class="item-info">
+                    <h3>Explosão de Bacon</h3>
+                    <p>Suculento burger bovino de 165g, cebola caramelizada, bacon crocante e creme de cheddar.</p>
+                    <span class="price">R$32,00</span>
+                </div>
             </div>
             <div class="menu-item">
-               <img src="img/x-salada.jpg" alt="X-Salada 80g">
-               <div class="item-info">
-                  <h3>X-Salada 80g</h3>
-                  <p>X Burger Salada de 80g, American Cheese, Alface, Tomate, molho (c/ cebola branca e picles) no pão brioche.</p>
-                  <span class="price">R$20,00</span>
-               </div>
+                <img src="img/xsalada.png" alt="X-Salada 80g">
+                <div class="item-info">
+                    <h3>X-Salada 80g</h3>
+                    <p>Burger de 80g com queijo, alface, tomate, molho especial com cebola e picles no pão brioche.</p>
+                    <span class="price">R$20,00</span>
+                </div>
             </div>
-         </div>
-<br>
-<center><div classe="separacao">Menu de Smashs Burgers 70g</div></center>
-         <!-- Menu de Smash -->
-         <div class="menu-container">
+        </div>
+
+        <!-- Menu de Smash -->
+        <div class="menu-container">
             <div class="menu-item">
-               <img src="img/barato.jpg" alt="smash tradicional" title="smash tradicional">
-               <div class="item-info">
-                  <h3>Smash Tradicional 70g</h3>
-                  <p>Pão brioche, burger smash 70g, queijo cheddar em fatia, molho smash (c/ cebola e picles)</p>
-                  <span class="price">R$18,00</span>
-               </div>
+                <img src="img/barato.jpg" alt="Smash Tradicional" title="Smash Tradicional">
+                <div class="item-info">
+                    <h3>Smash Tradicional 70g</h3>
+                    <p>Pão brioche, burger smash de 70g, queijo cheddar em fatia e molho especial com cebola e picles.</p>
+                    <span class="price">R$18,00</span>
+                </div>
             </div>
-            <div class="menu-item">
-               <img src="img/smashRhoncus.jpg" alt="smash rhoncus" title="smash rhoncus">
-               <div class="item-info">
-                  <h3>Smash Rhoncus 70g</h3>
-                  <p>Burgers de 70g (SMASH) amassados na chapa com queijo Cheddar em fatias e molho especial à base de cebola roxa e picles</p>
-                  <span class="price">R$25,00</span>
-               </div>
-            </div>
-            <div class="menu-item">
-               <img src="img/smashSalad.jpg" alt="smash Salada" title="smash Salada">
-               <div class="item-info">
-                  <h3>Smash Salada 70g</h3>
-                  <p>Burger smash 80g, American Cheese, Alface, Tomate, molho Smash (c/ cebola branca e picles) no pão brioche.</p>
-                  <span class="price">R$20,00</span>
-               </div>
-            </div>
-            <div class="menu-item">
-               <img src="img/squeijo.png" alt="smash queijo" title="smash queijo">
-               <div class="item-info">
-                  <h3>Smash queijo 70g</h3>
-                  <p>Burger smash 80g, American Cheese.</p>
-                  <span class="price">R$15,50</span>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- fim menu de itens -->
-      <br>
-      <br>
-      <!-- Seção Contato -->
-      <section id="contato" class="section-content">
-         <h2>Contato</h2>
-         <p>Endereço: Rua das Delícias, 123 - Centro</p>
-         <p>Telefone: (11) 1234-5678</p>
-         <p>Email: contato@hamburgueriadelicia.com</p>
-      </section>
-      <!-- fim da seção contato -->
-      <!-- Rodapé -->
-      <footer>
-         <p>&copy; 2024 Hamburgueria Delícia. Todos os direitos reservados.</p>
-      </footer>
-   </body>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section-content">
+        <h2>Contato</h2>
+        <p>Endereço: Rua das Delícias, 123 - Centro</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@hamburgueriadelicia.com</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Hamburgueria Delícia. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
